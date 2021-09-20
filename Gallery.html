@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<div>
+<nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class = "container-fluid">
+    <a class = "navbar-brand" href= "index.html"><img src = "JTLOGO1.PNG"style= "width:50px;height:75px;"></a>
+    <button class = "navbar-toggler" type= "button" data-toggle = "collapse" data-target = "#navbarResponsive">
+        <span class = "navbar-toggler-icon"></span>
+    </button>
+
+    <div class = "collapse navbar-collapse" id = "navbarResponsive">
+        <ul class = "navbar-nav ml-auto">
+            <li class = "nav-item">
+                <a class = "nav-link" href = "index.html"> Home</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "about.HTML"> About</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "ourTeam.html"> Team</a>
+           </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "Gallery.html"> Gallery</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+</div>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">WARNING!</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>It is prohibited to directly download pictures off of this website</p>
+  </div>
+
+</div>
+    
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jp1.jpg">
+        <img src="jp1.jpg" alt="Lights" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jp2.jpg">
+        <img src="jp2.jpg" alt="Nature" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jp3.png">
+        <img src="jp3.png" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jw1.jpg">
+        <img src="jw1.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jw12.jpg">
+        <img src="jw12.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="jw13.jpg">
+        <img src="jw13.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+    <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="wallpaper1.jpg">
+        <img src="wallpaper1.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+    <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="wallpaper2.jpg">
+        <img src="wallpaper2.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+       <div class="col-md-4">
+    <div class="thumbnail">
+      <a href="wallpaper12.jpg">
+        <img src="wallpaper12.jpg" alt="Fjords" style="width:100%">
+        <div class="caption">
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+        
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="">Jurassic Times</a>. All Rights Reserved</p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</html>
+
+    

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css" >
+<nav class = "navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class = "container-fluid">
+    <a class = "navbar-brand" href= "index.html"><img src = "JTLOGO1.PNG" style= "width:50px;height:75px;"></a>
+    <button class = "navbar-toggler" type= "button" data-toggle = "collapse" data-target = "#navbarResponsive">
+        <span class = "navbar-toggler-icon"></span>
+    </button>
+
+    <div class = "collapse navbar-collapse" id = "navbarResponsive">
+        <ul class = "navbar-nav ml-auto">
+            <li class = "nav-item">
+                <a class = "nav-link" href = "index.html"> Home</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "about.HTML"> About</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "ourTeam.html"> Team</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "nav-link" href = "Gallery.html"> Gallery</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+</nav>
+</div>
+
+<style>
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: gray;
+}
+</style>
+<!--- Bar that details all the team working on the website, -->
+
+<div class = "container-fluid padding">
+<div class = "row text-center padding">
+    
+    <div class = "col-xs-12 col-sm-6 col-md-4">
+        <img src = "image1.jpg" style="width:100px;height:100px;">
+        <h3>Alex de Pfeiffel</h3>
+        <div class="myDIV">Head of operations (hover to learn more)</div>
+        <div class="hide">Alex has experience in running several major media websites before.</div>
+    </div>
+    
+    <div class = "col-xs-12 col-sm-6 col-md-4">
+        <img src = "image.jpg" style = "width:100px;height:100px;">
+        <h3>Laura Kim</h3>
+        <div class="myDIV">Leading journalist (hover to learn more)</div>
+        <div class="hide">Laura has broken several major stories on the Jurassic Park franchise, including the name of the fourth film.</div>
+    </div>
+    
+    <div class = "col-xs-12 col-md-4">
+        <img src = "image2.jpg" style= "width:100px;height:100px;">
+        <h3>Sam Gupta</h3>
+        <div class="myDIV">Head of Social Media (hover to learn more)</div>
+        <div class="hide">Sam helps coordinate our online presence, running several social media accounts.</div>
+    </div>
+    
+</div>
+<hr class = "my-4">
+</div>
+   
+
+
+    
+<!--- Image Slider -->
+<div id = "slides" class = "carousel slide" data-ride = "carousel">
+<!--- Carousel indicators -->
+<ul class = "carousel-indicators">
+    <li data-target = "#slides" data-slide-to="0" class = "active"></li>
+    <li data-target = "#slides" data-slide-to="1"</li>
+    <li data-target = "#slides" data-slide-to="2"</li>
+</ul>  
+<div class = "carousel-inner">
+    <div class = "carousel-item active">
+        <img src = "quote1.PNG">
+        <div class = "carousel-caption">
+            
+        </div>
+    </div>
+    <div class = "carousel-item">
+        <img src = "quote27.PNG">
+    </div>
+    <div class = "carousel-item">
+        <img src = "quote3.PNG">
+    </div>
+
+</div>
+</div>
+    
+        
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="">Jurassic Times</a>. All Rights Reserved</p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</html>
+
